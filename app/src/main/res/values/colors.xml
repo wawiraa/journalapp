@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selected_card">#E5A980</color>
+    <color name="original_card">#FAF5F5</color>
+    <color name="status_bar_light">#FFFFFF</color>
+    <color name="status_bar_dark">#000000</color>
+    <color name="toggle_selected">#3498db</color>
+    <color name="toggle_unselected">#c0c0c0</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="orange_accent">#FFA726</color>
+
+</resources>

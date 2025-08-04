@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle">
+
+
+        <TextView
+            android:id="@+id/labelMoodCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mood Count"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChartMoodCounts"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/labelMoodSwings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mood Swings"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvMoodInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Observe how your mood changes over time :)"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="7dp"/>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChartMoodTrend"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/labelAvgMood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Mood"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="6dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartAverageMood"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

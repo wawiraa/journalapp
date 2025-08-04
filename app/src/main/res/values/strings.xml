@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Emotion and Stats</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pie_chart_description">A pie chart showing mood distribution</string>
+    <string name="line_chart_description">A line chart showing mood distribution</string>
+    <string-array name="reminder_frequencies">
+        <item>Once a day</item>
+        <item>Twice a day</item>
+        <item>Every 2 days</item>
+    </string-array>
+
+</resources>
